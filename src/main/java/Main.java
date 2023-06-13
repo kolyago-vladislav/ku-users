@@ -10,10 +10,7 @@ public class Main {
         User user = new User();
         user.setName("Java 2");
         user.setUserName("Username 2");
-        user.setAge(29);
-        user.setPassword("asasdasdasdadad2");
-        user.setInsertedAtUtc(LocalDateTime.now());
-        user.setSurname("Surname 2");
+
 
         userRepository.save(user);
 
